@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henrique Gheno</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous"> 
+    <link rel="stylesheet" type="text/css" href="src/style.css">
+</head>
+<body>
+    <header>
+        <!-- Barra de navegação -->
+        <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="img/logo-fundo-transparente-60x60.png" alt="Bootstrap" width="35px" height="35px">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projeto">Projetos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#linguagens">Linguagens</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Contatos
+                        </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">(51) 99780-9848</a></li>
+                        <li><a class="dropdown-item" href="#">henrique2004dev@gmail.com</a></li>
+                    </ul>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio" class="inicial">
+            <div class="apresentacao">
+                <p>Ola, me chamo</p>
+                <h2 class="efeito-digitacao pb-3">{Henrique Gheno}<span class="final-digitacao">|</span></h2>
+                <p>sou desenvolvedor web e desktop.</p>
+            </div>
+        </section>
+
+        <div class="divisao1">    
+        </div>
+
+        <section id="sobre" class="sobre">
+            <div class="card text-bg-dark mb-3 cor-borda-sobre-mim">
+                <div class="card-body">
+                  <h5 class="card-title">Sobre mim</h5>
+                  <p class="card-text">Sou desenvolver web e desktop, atualmente trabalho na Alfa Desenvolvimento de Software LTDA.</p>
+                  <p>asdada</p>
+                </div>
+        </section>
+
+        <div id="projeto" class="titulo-setor-projeto">
+            <h2>Projetos</h2>
+        </div>
+
+        <section class="exibicao-projetos">    
+            <div class="row">
+                <div class="col-sm-4 projeto">
+                    <div class="card text-center">
+                        <div class="card-body">
+                          <h5 class="card-title titulo-projetos">Site França</h5>
+                          <p class="card-text">O site apresenta curiosidades sobre o pais da França. Feito para um trabalho escolar e para adquirir conhecimento na area.(primeiro projeto web)</p>
+                          <p>Desenvolvido em <strong>BOOTSTRAP</strong> e <strong>CSS</strong></p>
+                          <a href="https://github.com/euhenriquegheno/site-franca-" class="btn btn-visualizar-projeto">Visualizar repositório</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 projeto">
+                    <div class="card text-center">
+                        <div class="card-body">
+                          <h5 class="card-title titulo-projetos">Site Buzoli e Rei do Bailão</h5>
+                          <p class="card-text">Vendas de ingressos para shows, integrado com a plataforma PIXAPAY de pagamento com PIX e envio de ingressos por Whatsapp.</p>
+                          <p>Conta também com um programa desktop para inserção de evento, setores, consulta de compra...<br>(ultimo projeto desenvolvido)</P>
+                          <p>Desenvolvimento WEB: <strong>BOOTSTRAP/CSS/JAVASCRIPT</strong><br>
+                            Desenvolvimento DESKTOP: <strong>PASCAL</strong>
+                        </p>
+                          <p>(obs: Desenvolvido juntamento com <a href="https://github.com/Douglas09">Douglas Colombo</a>)</p>
+
+                          <a href="https://buzoli.com.br/" class="btn btn-visualizar-projeto mb-2">Visualizar site Buzoli</a>
+                          <a href="https://clubereidobailao.com.br/" class="btn btn-visualizar-projeto">Visualizar site Rei do Bailão</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 projeto">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title titulo-projetos">Sistema de contas a receber(desktop)</h5>
+                            <p class="card-text">Programa para controle de contas a receber e contas a pagar com diversos cadastros, filtros e relatorios</p>
+                            <p>Desenvolvido em <strong>PASCAL</strong></p>
+                            <a href="https://github.com/euhenriquegheno/sistema-contas" class="btn btn-visualizar-projeto">Visualizar repositório</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="linguagens" class="exibicao-linguagens">
+            <h2 class="titulo-setor-linguagens">Linguagens de programação que trabalho</h2>
+            <div class="linguagens">
+                <img class="logo-linguagem" src="img/html5-logo.png" alt="logo-html">
+                <img class="logo-linguagem" src="img/bootstrap_logo.png" alt="logo-bootstrap">
+                <img class="logo-linguagem" src="img/css_logo.png" alt="logo-css">
+                <img class="logo-linguagem" src="img/logo-js.png" alt="logo-js">
+                <img class="logo-linguagem" src="img/delphi_logo.png" alt="logo-bootstrap">
+            </div>
+        </section>
+
+        <section class="exibicao-meu-github">
+            <div class="meu-github">
+               <img src="img/logo-github.png" alt="logo-github" class="logo-github">
+               <a class="caminho-meu-github" href="https://github.com/euhenriquegheno">Henrique Gheno</a> 
+            </div>
+        </section>
+        
+
+
+    </main>
+
+    <footer>
+        <p class="copyright">© Copyright, Henrique Gheno</p>
+
+    </footer>
+</body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</html>

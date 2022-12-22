@@ -1,0 +1,125 @@
+body{
+    background-color: black;
+    font-family: "Courier";
+}
+
+.inicial{
+    font-size: 25px;
+    margin: 50px 0 0 50px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.efeito-digitacao{
+    color: #8C52FF; 
+    margin: 10px 0 0 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 30rem;
+    animation: type 1s steps(60, end);
+}
+
+.efeito-digitacao:nth-child(2){
+    animation: type2 4s steps(60, end);
+}
+  
+.efeito-digitacao{
+    text-decoration: none;
+}
+
+.final-digitacao{
+    animation: blink 1s infinite;    
+}
+
+.divisao1{
+    margin-top: 50px;
+    background-color: #8C52FF;
+    height: 8px;
+}
+
+.sobre{
+    margin: 50px;
+    width: auto;
+}
+
+.cor-borda-sobre-mim{
+    border-color: #8C52FF;
+}
+
+.titulo-setor-projeto{
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+.exibicao-projetos{
+    margin-top: 20px;
+    background-color: #8C52FF;
+    margin-bottom: 80px;
+    padding: 50px;
+}
+
+.titulo-projetos{
+    color: #8C52FF;
+}
+
+.btn-visualizar-projeto{
+    background-color: #8C52FF;
+    color: white;
+}
+
+.btn-visualizar-projeto:hover{
+    color: #8C52FF;
+    transform: scale(1.2);
+    transition: 10ms;
+}
+
+.titulo-setor-linguagens{
+    color: white;
+    text-align: center;
+}
+
+.linguagens{
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.logo-linguagem{
+    width: 150px;
+    margin: 20px;
+}
+
+.exibicao-meu-github{
+    text-align: center;
+}
+
+.logo-github{
+    width: 150px;
+}
+
+.caminho-meu-github{
+    color: white;
+}
+
+.copyright{
+    color: white;
+    text-align: center;
+}
+
+
+@keyframes type{ 
+    from { width: 0; } 
+} 
+  
+@keyframes type2{
+    0%{width: 0;}
+    50%{width: 0;}
+    100%{ width: 100; } 
+} 
+  
+@keyframes blink{
+    to{opacity: .0;}
+}
