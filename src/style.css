@@ -97,11 +97,31 @@ body{
 }
 
 .logo-github{
-    width: 150px;
+    width: 100px;
+}
+
+.logo-whatsapp{
+    width: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.caminho-meu-whatsapp{
+    color: white;
 }
 
 .caminho-meu-github{
     color: white;
+}
+
+.logo-github:hover{
+    transform: scale(1.1);
+    transition: 200ms; 
+}
+
+.logo-whatsapp:hover{
+    transform: scale(1.1);
+    transition: 200ms; 
 }
 
 .copyright{
