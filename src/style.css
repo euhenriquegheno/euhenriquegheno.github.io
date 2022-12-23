@@ -39,9 +39,14 @@ body{
     height: 8px;
 }
 
-.sobre{
-    margin: 50px;
+.exibicao-sobre{
+    margin: 0 50px 50px 50px;
     width: auto;
+}
+
+.titulo-setor-sobre{
+    color: white;
+    text-align: center;
 }
 
 .cor-borda-sobre-mim{
@@ -76,6 +81,10 @@ body{
     transition: 10ms;
 }
 
+.projeto{
+    margin-top: 10px;
+}
+
 .titulo-setor-linguagens{
     color: white;
     text-align: center;
@@ -88,8 +97,13 @@ body{
 }
 
 .logo-linguagem{
-    width: 150px;
+    width: 100px;
     margin: 20px;
+}
+
+.logo-linguagem:hover{
+    transform: scale(1.1);
+    transition: 200ms;
 }
 
 .exibicao-meu-github{
