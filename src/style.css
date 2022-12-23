@@ -5,28 +5,14 @@ body{
 
 .inicial{
     font-size: 25px;
-    margin: 50px 0 0 50px;
+    margin: 50px 0 0 0px;
     color: white;
     justify-content: center;
     text-align: center;
-    display: flex;
 }
 
-.efeito-digitacao{
+.nome{
     color: #8C52FF; 
-    margin: 10px 0 0 10px;
-    white-space: nowrap;
-    overflow: hidden;
-    width: 30rem;
-    animation: type 1s steps(60, end);
-}
-
-.efeito-digitacao:nth-child(2){
-    animation: type2 4s steps(60, end);
-}
-  
-.efeito-digitacao{
-    text-decoration: none;
 }
 
 .final-digitacao{
